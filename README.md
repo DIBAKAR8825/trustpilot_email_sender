@@ -47,7 +47,7 @@ project-root/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-org/trustpilot-email-sender.git
+git clone https://github.com/DIBAKAR8825/trustpilot_email_sender.git
 cd trustpilot-email-sender
 ```
 
