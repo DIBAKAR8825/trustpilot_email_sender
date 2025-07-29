@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Modern JS features supported (e.g. optional chaining)
+    "module": "CommonJS", // Required for Node.js compatibility
+    "rootDir": "./src", // All source code lives here
+    "outDir": "./dist", // Compiled output goes here
+    "strict": true, // Enables all strict type-checking options
+    "esModuleInterop": true, // Allows default import syntax for CommonJS modules (like `import fs from 'fs'`)
+    "forceConsistentCasingInFileNames": true // Helps avoid casing bugs, especially on case-sensitive filesystems
+  },
+  "include": ["src"]
+}
